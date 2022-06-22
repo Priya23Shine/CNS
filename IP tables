@@ -22,3 +22,6 @@ CDIR : 157.240.0.0/16
 [root@localhost ~]# whois 157.240.24.35
 
 
+[root@localhost ~]# iptables -A OUTPUT -p tcp -d 157.240.0.0/16 -j DROP 
+
+[root@localhost ~]# iptables -D OUTPUT -p tcp -d 157.240.0.0/16 -j DROP
