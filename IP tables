@@ -1,0 +1,24 @@
+[root@localhost ~]# systemctl start firewalld
+[root@localhost ~]# systemctl restart firewalld
+[root@localhost ~]# systemctl stop firewalld
+[cabox@DES workspace]$ sudo iptables -L
+
+
+[cabox@DES workspace]$ sudo iptables -A INPUT-5 172.16.8.10 -j DROP
+cabox@DES workspace]$ sudo iptables -D INPUT -s 172.16.8.10 - DROP
+cabox@DES workspace]$
+
+cabox@DES workspace]$ sudo iptables -A INPUT -s 172.16.8.10 -j DROP
+cabox@DES workspace]$ sudo iptables-D INPUT-S172.16.8.10 -1 DROP
+cabox@DES workspace]$
+
+caboxADES workspace $ sudo iptables -A OUTPUT -p tep -d 192.168.100.0/24 --dport 22 -1 ACCEPT
+[ cabox&DES workspace]$
+
+[root@localhost ~1# host facebook.com
+
+[root@localhost ~]# whois 157.240.24.35 | grep CIDR
+CDIR : 157.240.0.0/16
+[root@localhost ~]# whois 157.240.24.35
+
+
